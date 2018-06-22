@@ -10,14 +10,15 @@ Click on the **links** below to find useful information quickly, or [browse the 
 <div class="panel-body">
 <div class="menu-block-wrapper">
 
-* [Release notes ${varVersion}](release-notes.md)    <!--{li:.first .leaf}-->
-* [Industrialization of Living Applications in Bonita Studio: Profiles](release-notes.md#living-application-development-and-deployment)    <!--{li:.leaf}-->
-* [UI Designer performance improvement: artifacts loading and display](release-notes.md#ui-designer-performance)<!--{li:.leaf}-->
-* [Engine performance improvement: startup and BPM Services resume](release-notes.md#engine-start-performance)<!--{li:.leaf}-->
-* [Eclipse Oxygen (4.7)](release-notes.md#techonolgy-updates)<!--{li:.last .leaf}-->
-* [Feature removals](release-notes.md#feature-removals)<!--{li:.last .leaf}-->
+<!--{:.menu .nav}-->
+* [Release notes ${varVersion}](release-notes.md)    <!--{:.first .leaf}-->
+* [Industrialization of Living Applications in Bonita Studio: Profiles](release-notes.md#living-application-development-and-deployment)    <!--{:.leaf}-->
+* [UI Designer performance improvement: artifacts loading and display](release-notes.md#ui-designer-performance)<!--{:.leaf}-->
+* [Engine performance improvement: startup and BPM Services resume](release-notes.md#engine-start-performance)<!--{:.leaf}-->
+* [Eclipse Oxygen (4.7)](release-notes.md#techonolgy-updates)<!--{:.last .leaf}-->
+* [Feature removals](release-notes.md#feature-removals)<!--{:.last .leaf}-->
 
-<!--{ul:.menu .nav}-->
+
 
 </div>
 </div>
@@ -29,14 +30,15 @@ Click on the **links** below to find useful information quickly, or [browse the 
 <div class="panel-body">
 <div class="menu-block-wrapper">
 
-* [Getting started tutorial](getting-started-tutorial.md)<!--{li:.first .leaf}-->
-* [Process diagram overview](diagram-overview.md)<!--{li:.leaf}-->
-* [Key concepts](key-concepts.md)<!--{li:.leaf}-->
-* [UI Designer overview](ui-designer-overview.md)<!--{li:.leaf}-->
-* [Bonita Studio installation](bonita-bpm-studio-installation.md)<!--{li:.leaf}-->
-* [Basic Bonita platform installation](tomcat-bundle.md)<!--{li:.leaf}-->
-* [Create your first project with the Engine APIs and Maven](create-your-first-project-with-the-engine-apis-and-maven.md)<!--{li:.last .leaf}-->
-<!--{ul:.menu .nav}-->
+<!--{:.menu .nav}-->
+* [Getting started tutorial](getting-started-tutorial.md)<!--{:.first .leaf}-->
+* [Process diagram overview](diagram-overview.md)<!--{:.leaf}-->
+* [Key concepts](key-concepts.md)<!--{:.leaf}-->
+* [UI Designer overview](ui-designer-overview.md)<!--{:.leaf}-->
+* [Bonita Studio installation](bonita-bpm-studio-installation.md)<!--{:.leaf}-->
+* [Basic Bonita platform installation](tomcat-bundle.md)<!--{:.leaf}-->
+* [Create your first project with the Engine APIs and Maven](create-your-first-project-with-the-engine-apis-and-maven.md)<!--{:.last .leaf}-->
+
 
 </div>
 </div>
@@ -48,12 +50,13 @@ Click on the **links** below to find useful information quickly, or [browse the 
 <div class="panel-body">
 <div class="menu-block-wrapper menu-name-menu-quicklinks">
 
-* [Download Bonita software](http://www.bonitasoft.com/how-we-do-it/downloads)<!--{li:.first .leaf}-->
-* [BPMN standard](http://www.bpmn.org/)<!--{li:.leaf}-->
-* [The Ultimate Guide to BPMN2](http://www.bonitasoft.com/for-you-to-read/bpm-library/ultimate-guide-bpmn)<!--{li:.leaf}-->
-* [Best Practices for Continuous Integration with Bonita](http://www.bonitasoft.com/for-you-to-read/bpm-library/best-practices-continuous-integration-bonita-bpm)<!--{li:.leaf}-->
-* [Javadoc](http://documentation.bonitasoft.com/javadoc/api/${varVersion}/index.html)<!--{li:.leaf .last}-->
-<!--{ul:.menu .nav}-->
+<!--{:.menu .nav}-->
+* [Download Bonita software](http://www.bonitasoft.com/how-we-do-it/downloads)<!--{:.first .leaf}-->
+* [BPMN standard](http://www.bpmn.org/)<!--{:.leaf}-->
+* [The Ultimate Guide to BPMN2](http://www.bonitasoft.com/for-you-to-read/bpm-library/ultimate-guide-bpmn)<!--{:.leaf}-->
+* [Best Practices for Continuous Integration with Bonita](http://www.bonitasoft.com/for-you-to-read/bpm-library/best-practices-continuous-integration-bonita-bpm)<!--{:.leaf}-->
+* [Javadoc](http://documentation.bonitasoft.com/javadoc/api/${varVersion}/index.html)<!--{:.leaf .last}-->
+
 
 </div>
 </div>
