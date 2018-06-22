@@ -14,9 +14,13 @@ Click on the **links** below to find useful information quickly, or [browse the 
 <div class="panel-body">
 <div class="menu-block-wrapper">
 
- <!-- {:.menu .nav} -->
-*  <!-- {:.first .leaf} -->  [Release notes ${varVersion}]({{"bonita/7.7/release-notes"|relative_url}})
-
+ <!-- {:.menu .nav}  -->
+* <!-- {:.first .leaf} -->  [Release notes ${varVersion}]({{"bonita/7.7/release-notes"|relative_url}})
+* <!-- {:.leaf} --> [Release notes ${varVersion}](release-notes.md)   
+* <!-- {:.leaf} --> [Bonita home removal for easier configuration](release-notes.md#bonita-home-removal)
+* <!-- {:.leaf} --> [User task list redesign for better efficiency](release-notes.md#user-task) 
+* <!-- {:.leaf} --> [New UI Designer widgets: File viewer and Rich text area](release-notes.md#new-widgets)
+* <!-- {:.leaf} --> [UI Designer usability improvements](release-notes.md#usability-improvements)
 
 </div>
 </div>
