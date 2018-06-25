@@ -15,7 +15,7 @@ Click on the **links** below to find useful information quickly, or [browse the 
 <div class="menu-block-wrapper">
 
  <!-- {:.menu .nav} -->
-* [Release notes ${varVersion}](release-notes.md)<!-- {:.leaf}-->   
+* [Release notes ${varVersion}](release-notes.md)<!-- {:.first .leaf}-->   
 * [Bonita home removal for easier configuration](release-notes.md#bonita-home-removal)<!-- {:.leaf} -->
 * [User task list redesign for better efficiency](release-notes.md#user-task) <!-- {:.leaf} --> 
 * [New UI Designer widgets: File viewer and Rich text area](release-notes.md#new-widgets) <!-- {:.leaf} -->
