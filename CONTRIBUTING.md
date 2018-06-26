@@ -125,10 +125,10 @@ Now starting from the visualization of the _taxonomy.md_ page, we can browse to 
 
 ### Variables
 
-During markdown to HTML conversion, some predefined variables located in the [variables.json file](scripts/variables.json) are replaced.
+Because we using Jekyll, some variable are replaced during the conversion in HTML. You can find those variables in the [Jekyll documentation](https://jekyllrb.com/docs/variables/).
 
-For instance, the `varVersion` variable matches the current documentation version.
-To reference this variable, use the `${varVersion}` notation in _.md_ files.
+You also add the `version` variable matches the current documentation version.  
+To reference this variable, use the `{{page.version}}` notation in _.md_ files.
 
 #### Markdown titles
 
@@ -156,7 +156,7 @@ When you create **howtos** make sure that:
 
 ## Markdown syntax
 
-Current conversion to html is done with `markdown-it` with the [Github-flavored Markdown](https://help.github.com/categories/writing-on-github/). Checkout [the cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for more information.
+Current conversion to html is done with `kramdown` with the [Github-flavored Markdown](https://help.github.com/categories/writing-on-github/). Checkout [the cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for more information.
 
 ## How to add images?
 
@@ -188,7 +188,7 @@ If anchor is in the same page , use the following:
 
 ### Font Awesome
 
-The markdown-it-fontawesome plugin has been activated and you can use [Font Awesome](http://fontawesome.io/icons/) icons with their name surrounded by colons.
+You can use [Font Awesome](http://fontawesome.io/icons/) icons with their name surrounded by colons.
 
 <u>Example</u>:
 
@@ -200,7 +200,8 @@ will produce
 
 ### Bootstrap alerts
 
-In order to reproduce [Bootstrap alerts](http://getbootstrap.com/components/#alerts) that were present in former documentation site, we introduced **markdown-it-alerts**.
+In order to reproduce [Bootstrap alerts](http://getbootstrap.com/components/#alerts) that were present in former documentation site, we use [*boostrap.rb* plugin](https://github.com/ikus060/jekyll-bootstrap-plugin) .
+
 It allows to recreate a `div` block with custom classes.
 
 We added 5 types of container :
@@ -224,27 +225,41 @@ will be rendered as :
 
 ### Decorate
 
-If you want to decorate the md elements with html attributes like classes or title, we added the [**markdown-it-decorator**](https://www.npmjs.com/package/markdown-it-decorate) to do so.
-Using `<!--{}-->` pattern at the end of a block will convert the content of `{}` to html attributes. Use CSS notation to decorate with classes.
+If you want to decorate the md elements with html attributes like classes or title, we use the native kramdown 
+[ bloc attributes](https://www.npmjs.com/package/markdown-it-decorate) to do so.
+Using `<!--{:}-->` pattern at the end of a block will convert the content of `{:}` to html attributes. Use CSS notation to decorate with classes.
 
 <u>Example</u>:
+
 ```
 This is some text.
-<!--{.center}-->
+<!--{:.center}-->
 ```
 will be converted to
 ```html
 <p class='center'>This is some text.</p>
 ```
 
-### Smart arrows
+### Syntax Hilighter
 
-We added the use of the [**markdown-it-smart-arrows**](https://www.npmjs.com/package/markdown-it-smartarrows) plugin to convert arrows to html entities :
-```
---> →
-<-- ←
-<--> ↔
-==> ⇒
-<== ⇐
-<==> ⇔
-```
+The syntax hilighter use by kramdown is `Rouge`. 
+
+You can use the syntax hilighter as this : 
+
+<pre>
+```java
+
+    /* Bonita.java
+    */
+
+    public class Bonita
+    {
+        public static void main(String[] args) {
+            System.out.println("Have fun with Bonita!");
+        }
+    }
+``` 
+</pre>
+
+[See the list of all the languages supported by `Rouge`](https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers)
+
