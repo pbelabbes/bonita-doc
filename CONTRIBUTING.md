@@ -125,9 +125,9 @@ Now starting from the visualization of the _taxonomy.md_ page, we can browse to 
 
 ### Variables
 
-Because we using Jekyll, some variable are replaced during the conversion in HTML. You can find those variables in the [Jekyll documentation](https://jekyllrb.com/docs/variables/).
+Because we are using Jekyll, some variables are replaced during the conversion in HTML. You can find those variables in the [Jekyll documentation](https://jekyllrb.com/docs/variables/).
 
-You also add the `version` variable matches the current documentation version.  
+We also added the `version` variable matches the current documentation version.  
 To reference this variable, use the `{{page.version}}` notation in _.md_ files.
 
 #### Markdown titles
