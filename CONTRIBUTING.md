@@ -4,6 +4,10 @@ The following is a set of guidelines for contributing to Bonita documentation.
 
 ## Help us to be more visible for search engine 
 
+To help us with the Search Engine Optimization, you can find some recommendations below. The non respect of them will have a direct impact of our visibility.
+
+### Title and description
+
 To help us, try to verify if your contribution have a clear title on the top of the page.  
 
 The description of the page is a best practise to optimize our search engine indexation. To do so, we invite you to create or update this description by adding those few lines to the top of the page.
@@ -170,11 +174,12 @@ All images must be added to the **md/images** folder.
 
 ### Images
 
-Use exclusively the Markdown syntax to insert images. Using the HTML `<img>` syntax is **not supported** by the build process.
+Use exclusively the Markdown syntax to insert images. Using the HTML `<img>` syntax is **not supported** by the build process. 
+All images should have an alternative name. This alternative name is usefull for blind and partially sighted.
 
-<u>Example</u>:
+Insert an image like this :  `![Your alternative name](images/mandatoryImageFileName.ext)`
 
-    ![optionalImageCaption](images/mandatoryImageFileName.ext)
+*NOTE : * Image that are to heavy slow down the loading of the page do not insert images that weight more than 70KB.
 
 ### Anchors
 
