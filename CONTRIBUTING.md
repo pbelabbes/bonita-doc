@@ -179,7 +179,7 @@ All images should have an alternative name. This alternative name is usefull for
 
 Insert an image like this :  `![Your alternative name](images/mandatoryImageFileName.ext)`
 
-**NOTE :** Image that are to heavy slow down the loading of the page do not insert images that weight more than 70KB.
+**NOTE :** Image that are to heavy slow down the loading of the page. Do not insert images that weight more than 70KB.
 
 ### Anchors
 
