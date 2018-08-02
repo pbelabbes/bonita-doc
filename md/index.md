@@ -6,7 +6,8 @@ Click on the **links** below to find useful information quickly, or [browse the 
 
 <div class="col-md-4">
 <div class="panel panel-default">
-<div class="panel-heading">Highlights</div>
+<div class="panel-heading">Highlights
+</div>
 <div class="panel-body">
 <div class="menu-block-wrapper">
 
@@ -26,7 +27,8 @@ Click on the **links** below to find useful information quickly, or [browse the 
 </div>
 <div class="col-md-4">
 <div class="panel panel-default">
-<div class="panel-heading">Getting started</div>
+<div class="panel-heading">Getting started
+</div>
 <div class="panel-body">
 <div class="menu-block-wrapper">
 
@@ -45,7 +47,8 @@ Click on the **links** below to find useful information quickly, or [browse the 
 </div>
 <div class="col-md-4">
 <div class="panel panel-default">
-<div class="panel-heading">Resources</div>
+<div class="panel-heading">Resources
+</div>
 <div class="panel-body">
 <div class="menu-block-wrapper menu-name-menu-quicklinks">
 
